@@ -7,13 +7,9 @@ Authors: Yixiao Chen, Yanyue Xie, Ruining Yang, Pu Zhao *et al.*
 [![DeepSeek](https://img.shields.io/badge/DeepSeek-Reference-0078D7?labelColor=555555&logoColor=white)](https://github.com/deepseek-ai/DeepSeek-V3)
 [![llama.cpp](https://img.shields.io/badge/llama.cpp-Reference-4CAF50?labelColor=555555&logo=github&logoColor=white)](https://github.com/ggml-org/llama.cpp)
 
----
-
 ## Intro
 The Mixture of Experts (MoE) architecture enables scaling Large Language Models (LLMs) efficiently by increasing capacity without raising computation cost. However, ultra-large MoEs like DeepSeek-V3 still pose challenges for deployment on memory-constrained edge devices.  
 We introduce a collaborative compression framework that integrates expert pruning, activation adjustment, and mixed-precision quantization, reducing DeepSeek-V3’s storage from 1.3 TB to 103 GB while maintaining considerable accuracy. 
-
----
 
 ## Framework Overview
 <div align="center">
@@ -21,17 +17,25 @@ We introduce a collaborative compression framework that integrates expert prunin
 </div><br/>
 The overall framework architecture of CC-MoE. The middle part shows a block-level schematic of DeepSeek MoE. The left part highlights our Performance-Aware Expert Reduction and Pruning-Aware Activation Adjustment for FFN layers, while the right part illustrates the mixed-precision quantization process applied to the remaining model.
 
+## Usage Guide
+For each component of this project, we provide detailed usage instructions and examples in the corresponding subfolder README files.  
+Please refer to those for step-by-step tutorials and implementation details.
+
+- [`DeepSeek-V3-Pruning/`](./DeepSeek-V3-Pruning/) — Framework for expert pruning and activation adjustment.  
+- [`moe-quant/`](./moe-quant/) — Mixed-precision quantization with beginner-friendly llama.cpp guidance. 
+- [`benchmark/`](./benchmark/) — GGUF benchmarking and evaluation methods.  
+
+
+## Model Download
+All of our released models are publicly available on [Hugging Face](https://huggingface.co/bobchenyx).  
+You are welcome to visit our page for more details, or download and test the models directly using our provided scripts.
+```
+pip install huggingface_hub hf_transfer  # hf_transfer optional: speeds up downloads
+python snapshot_download.py
+```
+
 ---
-
-### Usage Guide
-
----
-
-### Model Download
-
----
-
-### Citation
+## Citation
 
 If this work is helpful, please kindly cite as:
 
@@ -44,7 +48,7 @@ If this work is helpful, please kindly cite as:
 }
 ```
 
-### Acknowledgements
+## Acknowledgements
 
 This repository builds upon the outstanding work of the following open-source authors and projects:
 
