@@ -2,6 +2,11 @@
 
 Authors: Yixiao Chen, Yanyue Xie, Ruining Yang, Pu Zhao *et al.*
 
+[![arXiv](https://img.shields.io/badge/arXiv-2509.25689-df2a2a.svg?style=for-the-badge)](https://www.arxiv.org/abs/2509.25689)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-moxin--org-yellow.svg?style=for-the-badge&logo=HuggingFace)]([https://huggingface.co/moxin-org](https://huggingface.co/bobchenyx/DeepSeek-V3-0324-MLA-GGUF))
+[![DeepSeek](https://img.shields.io/badge/DeepSeek-Reference-0078D7.svg?style=for-the-badge&labelColor=555555&logoColor=white)](https://github.com/deepseek-ai/DeepSeek-V3)
+[![llama.cpp](https://img.shields.io/badge/llama.cpp-Reference-4CAF50.svg?style=for-the-badge&labelColor=555555&logo=github)](https://github.com/ggml-org/llama.cpp)
+
 ---
 
 
