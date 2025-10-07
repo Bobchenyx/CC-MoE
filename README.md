@@ -9,10 +9,27 @@ Authors: Yixiao Chen, Yanyue Xie, Ruining Yang, Pu Zhao *et al.*
 
 ---
 
+### Intro
+The Mixture of Experts (MoE) architecture enables scaling Large Language Models (LLMs) efficiently by increasing capacity without raising computation cost. However, ultra-large MoEs like DeepSeek-V3 still pose challenges for deployment on memory-constrained edge devices.  
+We introduce a collaborative compression framework that integrates expert pruning, activation adjustment, and mixed-precision quantization, reducing DeepSeek-V3’s storage from 1.3 TB to 103 GB while maintaining considerable accuracy. 
+
+---
+
 ### Framework Overview
 <div align="center">
   <img src="assets/main.png"/>
 </div><br/>
+The overall framework architecture of CC-MoE.
+
+---
+
+### Usage Guide
+
+---
+
+### Model Download
+
+---
 
 ### Citation
 
