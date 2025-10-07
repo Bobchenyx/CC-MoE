@@ -3,12 +3,13 @@ We here provide guidance for reproducing Mixed Precision Quantization using [ggm
 
 ---
 
-### 1.Installation Guide
+### 1. Installation Guide
+
+We provide a submodule reference for the llama.cpp b6700 release.
+
+However, we strongly recommend cloning the latest version for best compatibility.
 
 ```
-# We provide a submodule reference for the llama.cpp b6700 release.
-# However, we strongly recommend cloning the latest version for best compatibility.
-
 git clone https://github.com/ggml-org/llama.cpp.git
 cd llama.cpp
 
@@ -42,7 +43,7 @@ python3 llama.cpp/convert_hf_to_gguf.py \
 
 ---
 
-### 3.Imatrix Guide
+### 3. Imatrix Guide
 For extremely low-bit quantization, an imatrix file must be generated before running the actual quantization process.
 ```
 build/bin/llama-imatrix -m <Path-To-GGUF-Model> -f some-text.txt -o <Name-Of-Imatrix>.gguf \
@@ -53,7 +54,7 @@ build/bin/llama-imatrix -m <Path-To-GGUF-Model> -f some-text.txt -o <Name-Of-Ima
 
 ---
 
-### 4.LLM Quantization
+### 4. LLM Quantization
 For running mixed-precision quantization, you can replace the original code with our llama-quant patch and rebuild the project.
 
 However, for models with architectures other than DeepSeek-V3, you may encounter issues during quantization.
