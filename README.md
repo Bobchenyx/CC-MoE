@@ -3,7 +3,7 @@
 Authors: Yixiao Chen, Yanyue Xie, Ruining Yang, Pu Zhao *et al.*
 
 ![arXiv](https://img.shields.io/badge/arXiv-2509.25689-df2a2a?logo=arxiv&logoColor=white)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-bobchenyx-FFD21F?logo=huggingface&logoColor=black)](https://huggingface.co/bobchenyx/DeepSeek-V3-0324-MLA-GGUF)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-bobchenyx-FFD21F?logo=huggingface&logoColor=yellow)](https://huggingface.co/bobchenyx/DeepSeek-V3-0324-MLA-GGUF)
 [![DeepSeek](https://img.shields.io/badge/DeepSeek-Reference-0078D7?labelColor=555555&logoColor=white)](https://github.com/deepseek-ai/DeepSeek-V3)
 [![llama.cpp](https://img.shields.io/badge/llama.cpp-Reference-4CAF50?labelColor=555555&logo=github&logoColor=white)](https://github.com/ggml-org/llama.cpp)
 
