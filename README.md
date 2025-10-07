@@ -27,7 +27,7 @@ Please refer to those for step-by-step tutorials and implementation details.
 
 
 ## Model Download
-All of our released models are publicly available on [Hugging Face](https://huggingface.co/bobchenyx).  
+All of our released models are publicly available on [🤗Hugging Face](https://huggingface.co/bobchenyx/DeepSeek-V3-0324-MLA-GGUF).  
 You are welcome to visit our page for more details, or download and test the models directly using our provided scripts.
 ```
 pip install huggingface_hub hf_transfer  # hf_transfer optional: speeds up downloads
