@@ -9,7 +9,10 @@ Authors: Yixiao Chen, Yanyue Xie, Ruining Yang, Pu Zhao *et al.*
 
 ---
 
-
+### Framework Overview
+<div align="center">
+  <img src="assets/main.png"/>
+</div><br/>
 
 ### Citation
 
